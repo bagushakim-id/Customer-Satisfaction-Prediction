@@ -7,7 +7,7 @@ This project aims to predict customer satisfaction using machine learning models
 
 ## Folder Description
 - `dataset` : directory used to store data
-- `model`   : berisi beberapa file yang berkaitan dengan pengembangan model dalam proyek. Berikut adalah deskripsi singkat dari masing-masing file tersebut:
+- `model`   : contains a selection of files important to the project's model development. The brief descriptions of each of these files are as follows
   - `list_cat_nom.txt`: contains a list of nominal categorical column names in the dataset. This file will be used in the data preprocessing stage.
   - `list_cat_ord.txt`: contains a list of ordinal categorical column names in the dataset. This file will be used in the data preprocessing stage.
   - `list_num_col.txt`: lists the names of the numeric columns in the dataset. This file will be used in the data preprocessing stage.
