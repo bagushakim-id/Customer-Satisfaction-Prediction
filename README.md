@@ -6,13 +6,13 @@ This project aims to predict customer satisfaction using machine learning models
 - [Kaggle](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
 
 ## Folder Description
-1. `dataset` : directory used to store data
-2. `model`   : berisi beberapa file yang berkaitan dengan pengembangan model dalam proyek. Berikut adalah deskripsi singkat dari masing-masing file tersebut:
+- `dataset` : directory used to store data
+- `model`   : berisi beberapa file yang berkaitan dengan pengembangan model dalam proyek. Berikut adalah deskripsi singkat dari masing-masing file tersebut:
   - `list_cat_nom.txt`: contains a list of nominal categorical column names in the dataset. This file will be used in the data preprocessing stage.
   - `list_cat_ord.txt`: contains a list of ordinal categorical column names in the dataset. This file will be used in the data preprocessing stage.
   - `list_num_col.txt`: lists the names of the numeric columns in the dataset. This file will be used in the data preprocessing stage.
   - `satisfaction_model.pkl`: contains machine learning models that have been trained and saved in pickle format. This model will be used in the prediction stage to    predict customer satisfaction based on the input data.
-3. `script`  : contains the Python notebook files used to run the code in this project. There are two files contained in this folder:
+- `script`  : contains the Python notebook files used to run the code in this project. There are two files contained in this folder:
   - `inference-notebook.ipynb`: notebook file used to make inferences on the model that has been trained.
   - `main-notebook.ipynb`: notebook file that contains complete code for processing and analyzing data, training models, and evaluating model performance.
 
